@@ -138,7 +138,7 @@ class Tree:
             print(node.data, end=" ")
 
 
-    def trial2(self):
+    def trial(self):
         """Trial method
             
         Returns:
