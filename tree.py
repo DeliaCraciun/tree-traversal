@@ -62,27 +62,86 @@ class Tree:
             return self._find(data, node.right)
 
     def deleteTree(self):
-        # TODO 1
+        """
+        Resets the tree to an empty state.
+
+        This method sets the root of the tree to None, effectively removing all elements and thus 'deleting' the tree.
+        """
         self.root = None
 
     def printTree(self):
-        # TODO 1
+        """
+        Prints the contents of the tree in an in-order traversal.
+
+        This method prints each node's data in the tree. It will start from the leftmost node, moving to the root,
+        and finally to the rightmost node, reflecting an in-order traversal.
+        If the tree is empty, it will not print anything.
+        """
+        if self.root is not None:
+            self._printInorderTree(self.root)
+
+
+    def deleteTree(self):
+        """
+        Resets the tree to an empty state.
+
+        This method sets the root of the tree to None, effectively removing all elements and thus 'deleting' the tree.
+        """
+        self.root = None
+
+    def printTree(self):
+        """
+        Prints the contents of the tree in an in-order traversal.
+
+        This method prints each node's data in the tree. It will start from the leftmost node, moving to the root,
+        and finally to the rightmost node, reflecting an in-order traversal.
+        If the tree is empty, it will not print anything.
+        """
         if self.root is not None:
             self._printInorderTree(self.root)
 
     def _printInorderTree(self, node):
-        # TODO 1
+        """
+        A helper method that performs an in-order traversal of the tree starting from a given node.
+
+        This method is called recursively to visit a node's left subtree, then the node itself, and finally its right subtree.
+        This ensures that the nodes are visited in non-decreasing order.
+
+        Parameters:
+        node (TreeNode): The node from which the in-order traversal begins.
+
+        Note: This method is intended to be private and is used internally by the printTree method.
+        """
         if node is not None:
             self._printInorderTree(node.left)
             print(str(node.data) + ' ')
             self._printInorderTree(node.right)
 
     def _printPreorderTree(self, node):
-        # TODO 2
-        pass
+        """
+        Recursively performs a pre-order traversal from 'node', printing data before visiting left and right children.
+        This is intended for internal use to explore roots before leaves.
+        """
+        if node is not None:
+            print(node.data, end=" ")
+            self._printPreorderTree(node.left)
+            self._printPreorderTree(node.right)
 
     def _printPostorderTree(self, node):
-        # TODO 2
-        pass
+        """
+        Recursively performs a post-order traversal from 'node', printing data after visiting left and right children.
+        This method is ideal for operations requiring subtree processing first.
+        """
+        if node is not None:
+            self._printPostorderTree(node.left)
+            self._printPostorderTree(node.right)
+            print(node.data, end=" ")
 
 
+    def trial2(self):
+        """Trial method
+            
+        Returns:
+            None
+        """
+        print("This is a useless method")

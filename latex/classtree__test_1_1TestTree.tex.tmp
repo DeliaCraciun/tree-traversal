@@ -1,0 +1,54 @@
+\hypertarget{classtree__test_1_1TestTree}{}\doxysection{tree\+\_\+test.\+Test\+Tree Class Reference}
+\label{classtree__test_1_1TestTree}\index{tree\_test.TestTree@{tree\_test.TestTree}}
+
+
+Inheritance diagram for tree\+\_\+test.\+Test\+Tree\+:
+% FIG 0
+
+
+Collaboration diagram for tree\+\_\+test.\+Test\+Tree\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{classtree__test_1_1TestTree_a8d07d746d766caf7ac56db2c4fa9fe3f}{set\+Up}} (self)
+\item 
+def \mbox{\hyperlink{classtree__test_1_1TestTree_a97f72d55e0f88b61f77f4199ec03c884}{test\+\_\+find\+\_\+existing\+\_\+node}} (self)
+\item 
+def \mbox{\hyperlink{classtree__test_1_1TestTree_a3b8ae86496e9eb1b01f46c0bfb08d958}{test\+\_\+find\+\_\+non\+\_\+existing\+\_\+node}} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtree__test_1_1TestTree_abcb6c4dbeb217e263dbf4041c42c5c65}\label{classtree__test_1_1TestTree_abcb6c4dbeb217e263dbf4041c42c5c65}} 
+{\bfseries tree}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classtree__test_1_1TestTree_a8d07d746d766caf7ac56db2c4fa9fe3f}\label{classtree__test_1_1TestTree_a8d07d746d766caf7ac56db2c4fa9fe3f}} 
+\index{tree\_test.TestTree@{tree\_test.TestTree}!setUp@{setUp}}
+\index{setUp@{setUp}!tree\_test.TestTree@{tree\_test.TestTree}}
+\doxysubsubsection{\texorpdfstring{setUp()}{setUp()}}
+{\footnotesize\ttfamily def tree\+\_\+test.\+Test\+Tree.\+set\+Up (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Set up for test \end{DoxyVerb}
+ \mbox{\Hypertarget{classtree__test_1_1TestTree_a97f72d55e0f88b61f77f4199ec03c884}\label{classtree__test_1_1TestTree_a97f72d55e0f88b61f77f4199ec03c884}} 
+\index{tree\_test.TestTree@{tree\_test.TestTree}!test\_find\_existing\_node@{test\_find\_existing\_node}}
+\index{test\_find\_existing\_node@{test\_find\_existing\_node}!tree\_test.TestTree@{tree\_test.TestTree}}
+\doxysubsubsection{\texorpdfstring{test\_find\_existing\_node()}{test\_find\_existing\_node()}}
+{\footnotesize\ttfamily def tree\+\_\+test.\+Test\+Tree.\+test\+\_\+find\+\_\+existing\+\_\+node (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Test finding an existing node \end{DoxyVerb}
+ \mbox{\Hypertarget{classtree__test_1_1TestTree_a3b8ae86496e9eb1b01f46c0bfb08d958}\label{classtree__test_1_1TestTree_a3b8ae86496e9eb1b01f46c0bfb08d958}} 
+\index{tree\_test.TestTree@{tree\_test.TestTree}!test\_find\_non\_existing\_node@{test\_find\_non\_existing\_node}}
+\index{test\_find\_non\_existing\_node@{test\_find\_non\_existing\_node}!tree\_test.TestTree@{tree\_test.TestTree}}
+\doxysubsubsection{\texorpdfstring{test\_find\_non\_existing\_node()}{test\_find\_non\_existing\_node()}}
+{\footnotesize\ttfamily def tree\+\_\+test.\+Test\+Tree.\+test\+\_\+find\+\_\+non\+\_\+existing\+\_\+node (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}Test finding a non-existing node \end{DoxyVerb}
+ 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+tree\+\_\+test.\+py\end{DoxyCompactItemize}
