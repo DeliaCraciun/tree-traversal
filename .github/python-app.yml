@@ -26,4 +26,4 @@ name: Install dependencies
     
 name: Run tests
     run: |
-      python3 -m unittest test_tree.py
+      python3 -m unittest tree_test.py
