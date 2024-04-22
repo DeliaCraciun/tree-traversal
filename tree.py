@@ -138,10 +138,10 @@ class Tree:
             print(node.data, end=" ")
 
 
-    def trial(self):
+    def Trial(self):
         """Trial method
             
         Returns:
             None
         """
-        print("This is a useless method")
+        print("This is a trial method")
