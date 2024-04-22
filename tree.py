@@ -144,4 +144,4 @@ class Tree:
         Returns:
             None
         """
-        print("This is a trial method")
+        print("This is a TRIAL METHOD!!")
